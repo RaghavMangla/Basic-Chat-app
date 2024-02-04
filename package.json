@@ -5,9 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node app.js",
-    "build":"npm install && cd .. && cd ./client && npm install && npm run build"
+    "dev": "nodemon server/app.js",
+    "start": "node server/app.js",
+    "build":"npm install && cd ./client && npm install && npm run build"
   },
   "keywords": [],
   "author": "",

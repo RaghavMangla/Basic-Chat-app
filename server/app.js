@@ -7,8 +7,7 @@ import path from "path";
 
 const app = express();
 //-----------------Deployment----------------
-const __dirname = path.dirname(path.resolve());
- console.log(__dirname)
+const __dirname = path.resolve();
 
 app.use(express.static(path.join(__dirname, "/client/dist")));
 
